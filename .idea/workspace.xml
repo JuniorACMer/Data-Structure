@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c619162d-ea70-4869-b691-2a80c7fd2298" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/排序算法笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/sort/排序算法笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
-  <component name="RunManager" selected="Application.Encryption">
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.BubbleSort" />
       <module name="data-structure-learning" />
@@ -101,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedBlackTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="binary.RedBlackTree" />
-      <module name="data-structure-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sort.SelectSort" />
       <module name="data-structure-learning" />
@@ -127,13 +116,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.ShellSort" />
+      <module name="data-structure-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.Encryption" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Application.RedBlackTree" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578272632197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="数据结构排序算法">
+      <created>1578273880035</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578273880035</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,47 +205,47 @@
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1600" y="289" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577929844990" />
-    <state x="-1686" y="66" key="CommitChangelistDialog2" timestamp="1578272629829">
+    <state x="-1686" y="66" key="CommitChangelistDialog2" timestamp="1578273878530">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1686" y="66" key="CommitChangelistDialog2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578272629829" />
+    <state x="-1686" y="66" key="CommitChangelistDialog2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578273878530" />
     <state x="-1500" y="317" key="FileChooserDialogImpl" timestamp="1577866455659">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1500" y="317" key="FileChooserDialogImpl/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577866455659" />
-    <state width="2516" height="280" key="GridCell.Tab.0.bottom" timestamp="1577961262578">
+    <state width="2516" height="280" key="GridCell.Tab.0.bottom" timestamp="1578280754497">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2516" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577961262578" />
-    <state width="2516" height="280" key="GridCell.Tab.0.center" timestamp="1577961262575">
+    <state width="2516" height="280" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280754497" />
+    <state width="2516" height="280" key="GridCell.Tab.0.center" timestamp="1578280754497">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2516" height="280" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577961262575" />
-    <state width="2516" height="280" key="GridCell.Tab.0.left" timestamp="1577961262573">
+    <state width="2516" height="280" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280754497" />
+    <state width="2516" height="280" key="GridCell.Tab.0.left" timestamp="1578280754497">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2516" height="280" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577961262573" />
-    <state width="2516" height="280" key="GridCell.Tab.0.right" timestamp="1577961262577">
+    <state width="2516" height="280" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280754497" />
+    <state width="2516" height="280" key="GridCell.Tab.0.right" timestamp="1578280754497">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2516" height="280" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577961262577" />
+    <state width="2516" height="280" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280754497" />
     <state x="-1655" y="252" width="998" height="708" key="SettingsEditor" timestamp="1577929399937">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1655" y="252" width="998" height="708" key="SettingsEditor/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577929399937" />
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577370045825" />
-    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2" timestamp="1578273757957">
+    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2" timestamp="1578280713761">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578273757957" />
+    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280713761" />
     <state x="-1954" y="357" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577340954474">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1954" y="357" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577340954474" />
-    <state x="-2968" y="500" width="2730" height="644" maximized="true" key="dock-window-1" timestamp="1577702312827">
+    <state x="-2542" y="533" width="2425" height="607" key="dock-window-1" timestamp="1578280631347">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-2968" y="500" width="2730" height="644" maximized="true" key="dock-window-1/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577702312827" />
+    <state x="-2542" y="533" width="2425" height="607" key="dock-window-1/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578280631347" />
     <state x="-2457" y="208" width="2474" height="606" key="dock-window-2" timestamp="1577344385938">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
