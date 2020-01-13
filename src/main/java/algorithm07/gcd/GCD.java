@@ -1,4 +1,4 @@
-package XiaoHui2017.gcd;
+package algorithm07.gcd;
 
 /**
  * @author Spark

@@ -1,4 +1,4 @@
-package XiaoHui2017.AStarSearch;
+package algorithm07.AStarSearch;
 
 /**
  * @author Spark

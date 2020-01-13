@@ -1,4 +1,4 @@
-package XiaoHui2017.Booloom;
+package algorithm07.Booloom;
 
 /**
  * @author Spark

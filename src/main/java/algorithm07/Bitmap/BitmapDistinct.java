@@ -1,4 +1,4 @@
-package XiaoHui2017.Bitmap;
+package algorithm07.Bitmap;
 
 
 import com.googlecode.javaewah.datastructure.BitSet;

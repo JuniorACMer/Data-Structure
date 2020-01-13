@@ -1,4 +1,4 @@
-package XiaoHui2017.AES;
+package algorithm07.AES;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -14,7 +14,7 @@ public class Encryption {
     public static void main(String[] args) throws Exception {
         String key = "123456";
         //创建AES的key生产者
-        KeyGenerator kgen = KeyGenerator.getInstance("XiaoHui2017/AES");
+        KeyGenerator kgen = KeyGenerator.getInstance("algorithm07/AES");
         //利用用户密码作为随机数初始化
         kgen.init(128, new SecureRandom(key.getBytes()));
         //根据用户密码，生成一个密钥
@@ -24,7 +24,7 @@ public class Encryption {
         //打印128位密钥
         System.out.println("密钥：" + Arrays.toString(enCodeFormat));
         //创建加密器
-        Cipher cipher = Cipher.getInstance("XiaoHui2017/AES/CBC/PKCS5Padding");
+        Cipher cipher = Cipher.getInstance("algorithm07/AES/CBC/PKCS5Padding");
         //初始化加密模式的密码器
         cipher.init(Cipher.ENCRYPT_MODE, secretKey);
         //需要加密的明文
