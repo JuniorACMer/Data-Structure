@@ -1,0 +1,32 @@
+package algorithm07;
+
+/**
+ * @author Spark
+ * 证明：volatile只能保证变量的可见性，并不能保证变量的原子性。
+ */
+public class VolatileTest {
+    public volatile static int count = 0;
+
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            new Thread(new Runnable() {
+                public void run() {
+                    try {
+                        Thread.sleep(1);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    for (int j = 0; j < 100; j++) {
+                        count++;
+                    }
+                }
+            }).start();
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("count="+count);
+    }
+}
