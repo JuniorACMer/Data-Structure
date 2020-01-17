@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c619162d-ea70-4869-b691-2a80c7fd2298" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm07/TransientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm08/EightQueenProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm08/一些常见的算法问题笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/algorithm09/graph/GraphTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/AES/Encryption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/AES/Encryption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/AStarSearch/AStarSeach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/AStarSearch/AStarSeach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/Bitmap/BitmapDistinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/Bitmap/BitmapDistinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/Booloom/BooLoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/Booloom/BooLoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/Booloom/GetHashCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/Booloom/GetHashCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/gcd/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/gcd/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2017/程序员小灰2017笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XiaoHui2019/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm08/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm07/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm07/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/algorithm08/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/algorithm09/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1VUzrc3E6C3nKRs6aUa5DjwFX0R" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -68,8 +73,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="I:/plato-master" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,20 +85,7 @@
       <recent name="I:\idea_my_2020\data-structure-learning\src\XiaoHui2017\AES" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GCD">
-    <configuration name="Encryption" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm07.AES.Encryption" />
-      <module name="data-structure-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algorithm07.AES.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.GraphTraverse">
     <configuration name="GCD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm07.gcd.GCD" />
       <module name="data-structure-learning" />
@@ -104,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetHashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm07.Booloom.GetHashCode" />
+    <configuration name="GraphTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm09.graph.GraphTraverse" />
       <module name="data-structure-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algorithm07.Booloom.*" />
+          <option name="PATTERN" value="algorithm09.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.SelectSort" />
+    <configuration name="TestTransient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm07.TestTransient" />
       <module name="data-structure-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="algorithm07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,26 +125,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.ShellSort" />
+    <configuration name="VolatileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm07.VolatileTest" />
       <module name="data-structure-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="algorithm07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="data-structure-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithm07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithm07" />
+      <option name="MAIN_CLASS_NAME" value="algorithm07.TransientTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphTraverse" />
         <item itemvalue="Application.GCD" />
-        <item itemvalue="Application.GetHashCode" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.Encryption" />
-        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.TestTransient" />
+        <item itemvalue="JUnit.TransientTest" />
+        <item itemvalue="Application.VolatileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +185,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577322660085</updated>
+      <workItem from="1579068970782" duration="1224000" />
+      <workItem from="1579081044419" duration="1014000" />
+      <workItem from="1579135211477" duration="1606000" />
+      <workItem from="1579136856857" duration="2768000" />
+      <workItem from="1579141103781" duration="475000" />
+      <workItem from="1579158602639" duration="4440000" />
+      <workItem from="1579243507054" duration="3324000" />
     </task>
     <task id="LOCAL-00001" summary="数据结构排序算法">
       <created>1578272632197</created>
@@ -204,8 +221,25 @@
       <option name="project" value="LOCAL" />
       <updated>1578898064600</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="200113">
+      <created>1578898360018</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578898360018</updated>
+    </task>
+    <task id="LOCAL-00006" summary="200113">
+      <created>1579070048634</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579070048634</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数据结构排序算法" />
@@ -214,10 +248,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="200113" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="136" y="395" width="1338" height="682" key="#Inspections" timestamp="1577711049082">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="-1564" y="265" key="#Custom_Plugin_Repositories" timestamp="1579136211204">
+      <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-2334" y="533" width="1338" height="682" key="#Inspections/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577698261020" />
+    <state x="-1564" y="265" key="#Custom_Plugin_Repositories/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579136211204" />
+    <state x="-2334" y="533" width="1338" height="682" key="#Inspections" timestamp="1579247499258">
+      <screen x="-2560" y="-138" width="2560" height="1400" />
+    </state>
+    <state x="-2334" y="533" width="1338" height="682" key="#Inspections/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579247499258" />
     <state x="136" y="395" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1577711049082" />
     <state x="-1688" y="221" key="#Notifications" timestamp="1578272848546">
       <screen x="-2560" y="-138" width="2560" height="1400" />
@@ -239,47 +277,47 @@
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1600" y="289" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577929844990" />
-    <state x="-1686" y="66" key="CommitChangelistDialog2" timestamp="1578898061346">
+    <state x="-1686" y="66" key="CommitChangelistDialog2" timestamp="1579070046426">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1686" y="66" key="CommitChangelistDialog2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578898061346" />
-    <state x="-1500" y="317" key="FileChooserDialogImpl" timestamp="1577866455659">
+    <state x="-1686" y="66" key="CommitChangelistDialog2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579070046426" />
+    <state x="-1500" y="317" key="FileChooserDialogImpl" timestamp="1579158694681">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1500" y="317" key="FileChooserDialogImpl/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577866455659" />
-    <state width="2517" height="310" key="GridCell.Tab.0.bottom" timestamp="1578896283293">
+    <state x="-1500" y="317" key="FileChooserDialogImpl/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579158694681" />
+    <state width="2517" height="464" key="GridCell.Tab.0.bottom" timestamp="1579247452341">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2517" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578896283293" />
-    <state width="2517" height="310" key="GridCell.Tab.0.center" timestamp="1578896283293">
+    <state width="2517" height="464" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579247452341" />
+    <state width="2517" height="464" key="GridCell.Tab.0.center" timestamp="1579247452340">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2517" height="310" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578896283293" />
-    <state width="2517" height="310" key="GridCell.Tab.0.left" timestamp="1578896283293">
+    <state width="2517" height="464" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579247452340" />
+    <state width="2517" height="464" key="GridCell.Tab.0.left" timestamp="1579247452340">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2517" height="310" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578896283293" />
-    <state width="2517" height="310" key="GridCell.Tab.0.right" timestamp="1578896283293">
+    <state width="2517" height="464" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579247452340" />
+    <state width="2517" height="464" key="GridCell.Tab.0.right" timestamp="1579247452341">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state width="2517" height="310" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578896283293" />
-    <state x="-1655" y="252" width="998" height="708" key="SettingsEditor" timestamp="1577929399937">
+    <state width="2517" height="464" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579247452341" />
+    <state x="-1655" y="252" width="1297" height="708" key="SettingsEditor" timestamp="1579139636750">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1655" y="252" width="998" height="708" key="SettingsEditor/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577929399937" />
+    <state x="-1655" y="252" width="1297" height="708" key="SettingsEditor/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579139636750" />
     <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577370045825" />
-    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2" timestamp="1578898077159">
+    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2" timestamp="1578898361549">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578898077159" />
+    <state x="-1688" y="291" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578898361549" />
     <state x="-1954" y="357" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577340954474">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
     <state x="-1954" y="357" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1577340954474" />
-    <state x="-2543" y="427" width="2570" height="850" maximized="true" key="dock-window-1" timestamp="1578898011966">
+    <state x="-2501" y="498" width="2352" height="691" key="dock-window-1" timestamp="1579246798639">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
-    <state x="-2543" y="427" width="2570" height="850" maximized="true" key="dock-window-1/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1578898011966" />
+    <state x="-2501" y="498" width="2352" height="691" key="dock-window-1/0.0.1536.824/-2560.-138.2560.1400@-2560.-138.2560.1400" timestamp="1579246798639" />
     <state x="-2426" y="501" width="2619" height="766" key="dock-window-2" timestamp="1578533173589">
       <screen x="-2560" y="-138" width="2560" height="1400" />
     </state>
